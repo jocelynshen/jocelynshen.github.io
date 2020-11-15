@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jocelyn Shen</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hi! I'm Jocelyn, a graduate student at the MIT Media Lab's Personal Robots Group">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+	<meta name="author" content="Jocelyn Shen">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" type="image/ico" href="/Assets/favicon.ico">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128263308-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-128263308-1');
+	</script>
+	<script src="main.js"></script>
+</head>
+
+<body>
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-hide-medium w3-hide-large w3-left menu-button" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+      <a href="./index.html" class="w3-bar-item navbar-item">Home</a>
+      <a href="./index.html#research" class="w3-bar-item navbar-item">Research</a>
+
+      <a href="./projects.html" class="w3-bar-item navbar-item">Projects</a>
+      <a href="./art.html" class="w3-bar-item navbar-item">Art</a>
+	  <a href="./writing.html" class="w3-bar-item navbar-item">Writing</a>
+    </div>
+
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="./index.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Home</a>
+      <a href="./index.html#research" class="w3-bar-item menu-button" onclick="toggleFunction()">Research</a>
+      <a href="./projects.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Projects</a>
+      <a href="./art.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Art</a>
+	  <a href="./writing.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Writing</a>
+    </div>
+  </div>
+
+		<h3 class="w3-center" id="projects">Projects</h3>
+
+		<div class="row">
+			<div class="column1">
+				<img src="Assets/Untitled.png" class="w3-image" width="500" style="border-radius:20px">
+			</div>
+			<div class="column2">
+				<a class="text-highlight" href="http://pop-n.in">pop'n</a><a> &mdash;<em>Weblab 2020 Semifinalist</em></a>
+				<p>Online polling game to test people's knowledge on questions from around the world</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column1">
+				<img src="Assets/facebook1.png" class="w3-image" width="500">
+			</div>
+			<div class="column2">
+				<a class="text-highlight" href="https://github.com/footprnt/footprnt">footprnt</a><a> &mdash;<em>Facebook, 2019</em></a>
+				<p>Travel the world virtually through footprnt. Explore user-created travel logs from all around the world.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column1">
+				<img src="Assets/eyeinthesky.png" class="w3-image" width="500">
+			</div>
+			<div class="column2">
+				<a class="text-highlight" href="https://devpost.com/software/eye-in-the-sky-nm1l3k">Eye in the Sky</a><a> &mdash;<em>HackMIT Winner 2019 (Health Tech)</em></a>
+				<p>Mobile application for crowd-sourced natural disaster relief.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column1">
+				<img src="Assets/objectdetection1.png" class="w3-image" width="500" style="border-radius:20px">
+			</div>
+			<div class="column2">
+				<a class="text-highlight" href="http://go.affectiva.com/emotion-ai-summit-2018">In-Vehicle Object Detection</a><a> &mdash;<em>Affectiva, Emotion AI Summit 2018</em></a>
+				<p>Object detection using Retinanet to help drivers on the road.</p>
+			</div>
+		</div>
+
+				<!-- Modal for full size images on click-->
+				<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+					<span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+					<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+						<img id="img01" class="w3-image">
+						<p id="caption" class="w3-opacity w3-large"></p>
+					</div>
+				</div>
+
+			</div>
+
+      <footer class="w3-padding-64 " style="margin-top:5em;">
+				<div class="w3-xlarge w3-section w3-center">
+					<a>Jocelyn Jiayue Shen<br>沈佳玥<br></a>
+					<a href="mailto:joceshen@mit.edu" class="icon">
+						<i class="fa fa-envelope w3-hover-opacity"></i>
+					</a>
+					<a href="https://twitter.com/jocelyn_j_shen" class="icon">
+						<i class="fa fa-twitter w3-hover-opacity"></i>
+					</a>
+
+					<a href="https://www.linkedin.com/in/jocelyn-shen/" class="icon">
+                        <i class="fa fa-linkedin w3-hover-opacity"></i>
+                    </a>
+					<a href="https://www.github.com/jocelynshen/" class="icon">
+                        <i class="fa fa-github w3-hover-opacity"></i>
+                    </a>
+					<a href="https://jocelyn-j-shen.medium.com/" class="icon">
+                        <i class="fa fa-medium w3-hover-opacity"></i>
+          </a>
+					<a href="https://www.goodreads.com/user/show/70615594-jocelyn" class="icon">
+						<i class="fa fa-book w3-hover-opacity"></i>
+					</a>
+				</div>
+			</footer>
+		</div>
+</body>
+
+</html>

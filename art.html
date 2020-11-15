@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jocelyn Shen</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hi! I'm Jocelyn, a graduate student at the MIT Media Lab's Personal Robots Group">	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+	<meta name="author" content="Jocelyn Shen">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" type="image/ico" href="/Assets/favicon.ico">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128263308-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-128263308-1');
+	</script>
+	<script src="main.js"></script>
+</head>
+
+<body>
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-hide-medium w3-hide-large w3-left menu-button" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+      <a href="./index.html" class="w3-bar-item navbar-item">Home</a>
+      <a href="./index.html#research" class="w3-bar-item navbar-item">Research</a>
+
+      <a href="./projects.html" class="w3-bar-item navbar-item">Projects</a>
+      <a href="./art.html" class="w3-bar-item navbar-item">Art</a>
+	  <a href="./writing.html" class="w3-bar-item navbar-item">Writing</a>
+    </div>
+
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="./index.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Home</a>
+      <a href="./index.html#research" class="w3-bar-item menu-button" onclick="toggleFunction()">Research</a>
+      <a href="./projects.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Projects</a>
+      <a href="./art.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Art</a>
+	  <a href="./writing.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Writing</a>
+    </div>
+  </div>
+
+		<div class="w3-row-padding">
+
+			<!-- Container (Portfolio Section) -->
+			<div>
+				<h3 class="w3-center" id="artwork">Artwork</h3>
+				<h4 class="w3-center">Paintings</h4>
+				<div style="padding-left: 20pt;padding-right: 20pt">
+					<div class="row">
+						<div class="column">
+							<img src="Assets/thepool.jpg" onclick="onClick(this)" alt="The Pool" class="w3-hover-opacity grid-element" >
+
+						</div>
+
+						<div class="column">
+							<img src="Assets/DrawingForDesigners2.png" onclick="onClick(this)" alt="Xu Deqi Rendition" class="w3-hover-opacity grid-element" >
+							<img src="Assets/IMG_1043.png" onclick="onClick(this)" alt="Deer in the Headlights" class="w3-hover-opacity grid-element" >
+
+						</div>
+						<div class="column">
+							<img src="Assets/landscape%20painting.png" onclick="onClick(this)" alt="Alleyway in watercolor" class="w3-hover-opacity grid-element" >
+
+						</div>
+					</div>
+				</div>
+
+				<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+					<span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+					<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+						<img id="img01" class="w3-image">
+						<p id="caption" class="w3-opacity w3-large"></p>
+					</div>
+				</div>
+				
+				<h4 class="w3-center">Sketchbook</h4>
+
+				<div style="padding-left: 20pt;padding-right: 20pt">
+					<div class="row">
+
+
+						<div class="column">
+							<img src="Assets/06_2021_portrait.png" onclick="console.log(this);onClick(this)" alt="06/2021 portrait sketches" class="w3-hover-opacity grid-element" >
+
+							<img src="Assets/05_2021_portrait.png" onclick="onClick(this)" alt="05/2021 portrait sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/04_2021_figure.png" onclick="onClick(this)" alt="04/2021 figure drawing" class="w3-hover-opacity grid-element" >
+							<img src="Assets/03_2021_skull.png" onclick="onClick(this)" alt="03/2021 skull anatomy sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/02_2021_portrait.png" onclick="onClick(this)" alt="02/2021 portrait sketches" class="w3-hover-opacity grid-element" >
+
+						</div>
+						<div class="column">
+							<img src="Assets/06_2021_figure.png" onclick="onClick(this)" alt="06/2021 figure sketches" class="w3-hover-opacity grid-element" >
+
+							<img src="Assets/05_2021_figure.png" onclick="onClick(this)" alt="05/2021 figure sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/04_2021_Portrait.png" onclick="onClick(this)" alt="04/2021 portrait sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/04_2021_hand.png" onclick="onClick(this)" alt="04/2021 hand and feed sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/03_2021_figure.png" onclick="onClick(this)" alt="03/2021 figure sketches" class="w3-hover-opacity grid-element" >
+
+
+
+						</div>
+						<div class="column">
+							<img src="Assets/06_2021_life_drawing.png" onclick="onClick(this)" alt="06/2021 life drawing" class="w3-hover-opacity grid-element" >
+
+							<img src="Assets/05_2021_Life_drawing.png" onclick="onClick(this)" alt="05/2021 life drawing" class="w3-hover-opacity grid-element" >
+							<img src="Assets/03_2021_anatomy.png" onclick="onClick(this)" alt="03/2021 anatomical sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/03_2021_portrait.png" onclick="onClick(this)" alt="03/2021 portrait sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/03_2021_hand.png" onclick="onClick(this)" alt="03/2021 hand and feed sketches" class="w3-hover-opacity grid-element" >
+							<img src="Assets/02_2021_figure.png" onclick="onClick(this)" alt="02/2021 figure sketches" class="w3-hover-opacity grid-element" >
+
+						</div>
+					</div>
+				</div>
+     
+			<!-- Footer -->
+      <footer class="w3-padding-64 " style="margin-top:5em;">
+				<div class="w3-xlarge w3-section w3-center">
+					<a>Jocelyn Jiayue Shen<br>沈佳玥<br></a>
+					<a href="mailto:joceshen@mit.edu" class="icon">
+						<i class="fa fa-envelope w3-hover-opacity"></i>
+					</a>
+					<a href="https://twitter.com/jocelyn_j_shen" class="icon">
+						<i class="fa fa-twitter w3-hover-opacity"></i>
+					</a>
+
+					<a href="https://www.linkedin.com/in/jocelyn-shen/" class="icon">
+                        <i class="fa fa-linkedin w3-hover-opacity"></i>
+                    </a>
+					<a href="https://www.github.com/jocelynshen/" class="icon">
+                        <i class="fa fa-github w3-hover-opacity"></i>
+                    </a>
+					<a href="https://jocelyn-j-shen.medium.com/" class="icon">
+                        <i class="fa fa-medium w3-hover-opacity"></i>
+          </a>
+					<a href="https://www.goodreads.com/user/show/70615594-jocelyn" class="icon">
+						<i class="fa fa-book w3-hover-opacity"></i>
+					</a>
+				</div>
+			</footer>
+		</div>
+</body>
+
+</html>
