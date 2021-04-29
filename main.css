@@ -82,7 +82,7 @@ p {
 	transition-duration: 0.4s;
 	display: inline-block;
 	font-size: 16px;
-	
+
 }
 
 .button1:hover {
@@ -304,14 +304,14 @@ padding-right:2em;
 /* First image (Logo. Full height) */
 
 .bgimg-1 {
-	background-image: url('/Assets/nanjing_.jpg');
+	background-image: url('Assets/nanjing_.jpg');
 	min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 
 .bgimg-2 {
-	background-image: url("/Assets/nanjing_1.jpg");
+	background-image: url("Assets/nanjing_1.jpg");
 	min-height: 400px;
 }
 
@@ -371,7 +371,7 @@ padding-right:2em;
 	.content {
 		margin: 20px;
 	}
-	
+
 	.note {
 		font-size: 14px;
 	}
@@ -379,39 +379,39 @@ padding-right:2em;
 	.grid-element {
 		margin-top: 10px !important;
 	}
-	
+
 	.button2 {
 		font-size:14px;
 	}
-	
+
 	.button1 {
 		margin-top:1em !important;
 		font-size:14px;
 	}
-	
+
 	.video{
 		height: 300px;
 	}
-	
+
 	#span-text-inner {
 		font-size: 24px !important;
 	}
-	
+
 	.project-text {
 		margin: 0 !important;
 		padding: 0 !important;
 	}
-	
+
 	.column1 {
 		width: 100%;
 		text-align: center;
 		padding: 0;
 	  }
-	
-	
+
+
 	.column2 {
 		width:100%;
 		padding: 0;
-		
+
 	}
 }
