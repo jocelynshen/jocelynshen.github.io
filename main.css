@@ -183,6 +183,20 @@ padding-right:2em;
   width: 25%;
 }
 
+.column3 {
+  float: left;
+  text-align: right;
+padding-right:2em;
+  width: 30%;
+}
+
+.column4 {
+  float: left;
+	padding-left:2em;
+  width: 70%;
+}
+
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -304,7 +318,7 @@ padding-right:2em;
 /* First image (Logo. Full height) */
 
 .bgimg-1 {
-	background-image: url('Assets/nanjing_.jpg');
+	background-image: url('Assets/P1250811.JPG');
 	min-height: 100%;
 }
 
@@ -414,4 +428,17 @@ padding-right:2em;
 		padding: 0;
 
 	}
+	.column3 {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		}
+
+
+	.column4 {
+		width:100%;
+		padding: 0;
+
+	}
+
 }
