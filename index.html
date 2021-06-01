@@ -5,7 +5,7 @@
 	<title>Jocelyn Shen</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Hi! My name is Jocelyn, and I'm currently a sophomore at MIT pursuing a major in Electrical Engineering and Computer Science alongisde a minor in Economics.">
+	<meta name="description" content="Hi! My name is Jocelyn, and I'm currently a junior at MIT pursuing a major in Computer Science alongisde a minor in Economics.">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
 	<meta name="author" content="Jocelyn Shen">
@@ -33,263 +33,79 @@
 			<a class="w3-bar-item w3-hide-medium w3-hide-large w3-left menu-button" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
-			<a href="#about" class="w3-bar-item navbar-item">About</a>
-			<a href="#research" class="w3-bar-item navbar-item">Research</a>
-			<a href="#projects" class="w3-bar-item navbar-item">Projects</a>
-
-			<a href="#writing" class="w3-bar-item navbar-item">Writing</a>
-			<a href="#artwork" class="w3-bar-item navbar-item">Artwork </a>
+			<a href="#home" class="w3-bar-item navbar-item">Home</a>
+			<a href="./projects.html" class="w3-bar-item navbar-item">Projects</a>
+			<a href="./personal.html" class="w3-bar-item navbar-item">Art and Writing</a>
 		</div>
 
 		<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-			<a href="#about" class="w3-bar-item menu-button" onclick="toggleFunction()">About</a>
-			<a href="#projects" class="w3-bar-item menu-button" onclick="toggleFunction()">Projects</a>
-			<a href="#research" class="w3-bar-item menu-button" onclick="toggleFunction()">Research</a>
-			<a href="#writing" class="w3-bar-item menu-button" onclick="toggleFunction()">Writing</a>
-			<a href="#artwork" class="w3-bar-item menu-button" onclick="toggleFunction()">Artwork </a>
+			<a href="#home" class="w3-bar-item menu-button" onclick="toggleFunction()">Home</a>
+			<a href="./projects.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Projects</a>
+			<a href="./personal.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Art and Writing</a>
 		</div>
 	</div>
 
-	<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-		<div class="w3-display-middle">
-			<div class="span-text">
-				<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" id="span-text-inner">JOCELYN SHEN</span>
+	<div class="bgimg-1" id="home">
+		<div class="item ">
+			<div class="span-text ">
+				<span class="w3-center w3-xlarge w3-wide w3-animate-opacity" id="span-text-inner">JOCELYN SHEN</span>
 			</div>
-			<div class="span-text">
-				<span>
-                <a href="https://www.facebook.com/jocelyn.shen.3" class="icon">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/jocie_shen/" target="_blank" class="icon">
-                    <i class="fa fa-instagram"></i>
-                </a>
-				<a href="https://twitter.com/jocelyn_j_shen" target="_blank" class="icon">
-					<i class="fa fa-twitter"></i>
-				</a>
-                <a href="https://www.linkedin.com/in/jocelyn-shen/" target="_blank" class="icon">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/jocelynshen" target="_blank" class="icon">
-                    <i class="fa fa-github"></i>
-                </a>
-                <a href="https://jocelyn-j-shen.medium.com/" target="_blank" class="icon">
-                    <i class="fa fa-medium"></i>
-                </a>
-				<a href="https://www.goodreads.com/user/show/70615594-jocelyn" target="_blank" class="icon">
-					<i class="fa fa-book"></i>
-				</a>
+			<img src="Assets/prof.jpg" class="w3-image" style="border-radius:5px">
 
-            	</span>
-			</div>
-		</div>
+				<div class="span-text w3-opacity-min">
+					<span>
+	                <a href="https://www.facebook.com/jocelyn.shen.3" class="icon">
+	                    <i class="fa fa-facebook"></i>
+	                </a>
+	                <a href="https://www.instagram.com/jocie_shen/" target="_blank" class="icon">
+	                    <i class="fa fa-instagram"></i>
+	                </a>
+					<a href="https://twitter.com/jocelyn_j_shen" target="_blank" class="icon">
+						<i class="fa fa-twitter"></i>
+					</a>
+	                <a href="https://www.linkedin.com/in/jocelyn-shen/" target="_blank" class="icon">
+	                    <i class="fa fa-linkedin"></i>
+	                </a>
+	                <a href="https://github.com/jocelynshen" target="_blank" class="icon">
+	                    <i class="fa fa-github"></i>
+	                </a>
+	                <a href="https://jocelyn-j-shen.medium.com/" target="_blank" class="icon">
+	                    <i class="fa fa-medium"></i>
+	                </a>
+					<a href="https://www.goodreads.com/user/show/70615594-jocelyn" target="_blank" class="icon">
+						<i class="fa fa-book"></i>
+					</a>
 
-	</div>
-
-	<div class="content">
-		<div class="w3-row-padding ">
-			<h3 class="w3-center" id="about">About</h3>
-						<div class="text">
-						<p>Hi! I'm Jocelyn, a junior at MIT pursuing a major in Electrical Engineering and Computer Science alongisde a minor in Economics. I'm passionate about technology, behavioral science, and AI policy and ethics. The driving motivation behind my research and my projects is to understand the relationship between machines, individuals, and society. In the past, I've worked at Citadel (Software Engineering Intern), Facebook (Software Engineering Intern), and Affectiva (Data Science Intern). I'm also a researcher at the MIT Media Lab's Personal Robotics group, where I've worked on affective-computing and educational technology projects for the past three years. I hope to use my knowledge in CS and machine learning to better understand human behavior and contribute to causes related to mental disability, education, and assistive technology, as well as drive research behind policy decisions regarding artificial intelligence and equitable technology. Aside from my work, I'm a writer and digital artist based in Los Angeles.</p>
-					</div>
-
+	            	</span>
 				</div>
-
-
 		</div>
+		<div class="item2">
+			<div class="content">
+			<p>Hi! I'm Jocelyn, a junior at MIT pursuing a major in Computer Science alongisde a minor in Economics. I'm passionate about technology, behavioral science, and AI policy and ethics. The driving motivation behind my research and my projects is to understand the relationship between machines, individuals, and society. In the past, I've worked at Citadel (Software Engineering Intern), Facebook (Software Engineering Intern), and Affectiva (Data Science Intern). I'm also a researcher at the MIT Media Lab's Personal Robotics group, where I've worked on affective-computing and educational technology projects for the past three years. I hope to use my knowledge in CS and machine learning to better understand human behavior and contribute to causes related to mental disability, education, and assistive technology, as well as drive research behind policy decisions regarding artificial intelligence and equitable technology. Aside from my work, I'm a writer and digital artist based in Los Angeles.</p>
 
-		<h3 class="w3-center" id="research">Research</h3>
+			<h3 class="w3-center" id="research">Research</h3>
 
-		<h4 class="w3-center"><b>Towards Transferrable Player Models in Educational Games </b></h4>
-		<div class="text">
-			<p>Samuel Spaulding, <b>Jocelyn Shen</b>, HaeWon Park, and Cynthia Breazeal. Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2021)</p>
-			<a class="button1" href="http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1245.pdf">Paper available here</a>
-		</div>
-		<!-- Second Parallax Image with Portfolio Text -->
-		<h4 class="w3-center"><b>Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling</b></h4>
-		<div class="text">
-
-			<p>Alexander B. Brummer, Panagiotis Lymperopoulos, <b>Jocelyn Shen</b>, Elif Tekin, Lisa P. Bentley, Vanessa Buzzard, Andrew Gray, Imma Oliveras, Brian J. Enquist and Van M. Savage. Journal of the Royal Society Interface Volume 18, Issue 174, 2021</p>
-			<a class="button1" href="https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0624">Paper available here</a>
-			<a class="button2" href="https://github.com/jocelynshen/vascular-analysis">Source code available here</a>
-		</div>
-
-		<h3 class="w3-center" id="projects">Projects</h3>
-
-		<div class="row">
-			<div class="column1">
-				<img src="Assets/Untitled.png" class="w3-image" width="500" style="border-radius:20px">
-			</div>
-			<div class="column2">
-				<a class="text-highlight" href="http://pop-n.in">pop'n</a><a> &mdash;<em>Weblab 2020 Semifinalist</em></a>
-				<p>Online polling game for people around the world to ask questions about certain regions and see how much they know about people around the world</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column1">
-				<img src="Assets/facebook1.png" class="w3-image" width="500">
-			</div>
-			<div class="column2">
-				<a class="text-highlight" href="https://github.com/footprnt/footprnt">footprnt</a><a> &mdash;<em>Facebook, 2019</em></a>
-				<p>Travel the world virtually through footprnt. Explore user-created travel logs from all around the world</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column1">
-				<img src="Assets/eyeinthesky.png" class="w3-image" width="500">
-			</div>
-			<div class="column2">
-				<a class="text-highlight" href="https://devpost.com/software/eye-in-the-sky-nm1l3k">Eye in the Sky</a><a> &mdash;<em>HackMIT Winner 2019 (Health Tech)</em></a>
-				<p>Mobile application for crowd-sourced natural disaster relief</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column1">
-				<img src="Assets/objectdetection1.png" class="w3-image" width="500" style="border-radius:20px">
-			</div>
-			<div class="column2">
-				<a class="text-highlight" href="http://go.affectiva.com/emotion-ai-summit-2018">In-Vehicle Object Detection</a><a> &mdash;<em>Affectiva, Emotion AI Summit 2018</em></a>
-				<p>Object detection using Retinanet to help drivers on the road</p>
-			</div>
-		</div>
-
-
-		<div class="w3-row-padding">
-			<h3 class="w3-center" id="writing">Writing</h3>
-
+			<h4 class="w3-center"><b>Towards Transferrable Player Models in Educational Games </b></h4>
 			<div class="text">
-				<h4>ON TECH</h4>
-				<div class="text">
-					<a class="text-highlight" href="https://thetech.com/2018/10/18/ai-and-healthcare-feature">Machines and Medicine</a><a> &mdash;<em>The Tech (MIT Newspaper)</em></a>
-					<p>
-						Artificial intelligence is beginning to cement itself as a useful tool for researchers and engineers alike, and it has the potential to become a new addition to the health professional’s toolkit...<br><a class="text-colored" href="https://thetech.com/2018/10/18/ai-and-healthcare-feature">READ MORE</a></p>
+				<p>Samuel Spaulding, <b>Jocelyn Shen</b>, HaeWon Park, and Cynthia Breazeal. Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2021)</p>
+				<a class="button1" href="http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1245.pdf">Paper available here</a>
+			</div>
+			<!-- Second Parallax Image with Portfolio Text -->
+			<h4 class="w3-center"><b>Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling</b></h4>
+			<div class="text">
 
-					<a class="text-highlight" href="https://thetech.com/2018/12/06/mental-health-feature">Mental Health and the Brain</a><a> &mdash;<em>The Tech (MIT Newspaper)</em></a>
-					<p>
-						Research into the human brain has rapidly grown in the past few decades, and scientists and patients alike are beginning to understand the importance of mental health awareness...<br><a class="text-colored" href="https://thetech.com/2018/12/06/mental-health-feature">READ MORE</a></p>
-
-					<a class="text-highlight" href="https://jocelyn-j-shen.medium.com/open-source-and-diversity-8a77cd7b0b70">Open Source and Diversity</a>
-					<p>
-						Open source still has a long way to go before software, and software development alike, becomes more equitable...<br><a class="text-colored" href="https://jocelyn-j-shen.medium.com/open-source-and-diversity-8a77cd7b0b70">READ MORE</a></p>
-
-				</div>
-
-				<h4>NOVELS</h4>
-				<div class="text">
-					<a class="text-highlight">Time Zone <a> &mdash;<em>1st prize, MIT Boit Manuscript Prize</em></a></a>
-					<p>
-						Juneau is a mess. From the outside, she has it all together: she is smart, warm, and well-liked. But behind closed doors, she lets all the pent-up emotions flood out. Haiden is her best friend. He’s her rock, but he’s also absolutely off-limits. Caught in the midst of turbulence back home and at school, Juneau struggles to uncover her own identity as the voices around her are so disharmonious. The only thing that helps her drown out the noise is Haiden. There’s just one problem: he’s moving to the other side of the world in three months. <br> But with a heart full of hope, she wonders if perhaps their love can perservere across every time zone.<br>Told through a mixture of traditional narrative and social media posts, <em>Time Zone </em> is a story about love in the digital age, mental health, and racial identity. <br><a class="note">Coming soon...</a></p>
-				</div>
-
-				<h4>ESSAYS &amp; POETRY </h4>
-				<div class="text">
-					<a class="text-highlight" href="https://jocelyn-j-shen.medium.com/between-barbed-wire-a-visual-analysis-of-times-welcome-to-america-2c60c3b6eb43">Between Barbed Wire: A Visual Analysis of TIME's Welcome to America<a> &mdash;<em>2nd prize, MIT List Vera Prize for Writing on the Visual Arts</em></a></a>
-					<p>A series of rafts float closer to shore, near the Rio Grande on United States territory. The riders’ faces are beaten and their hair mangled and sweaty...<br><a class="text-colored" href="https://jocelyn-j-shen.medium.com/between-barbed-wire-a-visual-analysis-of-times-welcome-to-america-2c60c3b6eb43">READ MORE</a></p>
-
-					<a class="text-highlight" href="http://runemag.mit.edu/lit/she_lies_40">She Lies Through Her Teeth&mdash;<em>MIT Rune Magazine Issue 40</em></a>
-					<p>Every parent has a pet peeve. My mother’s is dishonesty. In her house, even the little white lies never went unnoticed...<br><a class="text-colored" href="http://runemag.mit.edu/lit/she_lies_40">READ MORE</a></p>
-
-					<a class="text-highlight" href="https://jocelyn-j-shen.medium.com/sugar-glass-cage-ece2cd65cdbc">Sugar Glass Cage<a> &mdash;<em>1st prize, Helen Creeley Poetry Prize</em></a></a>
-					<p>Walking through streets of Nanjing<br> Lanterns speckled by the carbon dust and debris...<br><a class="text-colored" href="https://jocelyn-j-shen.medium.com/sugar-glass-cage-ece2cd65cdbc">READ MORE</a></p>
-
-					<a class="text-highlight" href="https://jocelyn-j-shen.medium.com/a-needle-in-time-5dd149973845">A Needle in Time<a> &mdash;<em>1st prize, Helen Creeley Poetry Prize</em></a></a>
-					<p>The needle is a fine strand of hair plucked from an aging scalp.<br> It is intentional in physiology...<br><a class="text-colored" href="https://jocelyn-j-shen.medium.com/a-needle-in-time-5dd149973845">READ MORE</a></p>
-				</div>
-
+				<p>Alexander B. Brummer, Panagiotis Lymperopoulos, <b>Jocelyn Shen</b>, Elif Tekin, Lisa P. Bentley, Vanessa Buzzard, Andrew Gray, Imma Oliveras, Brian J. Enquist and Van M. Savage. Journal of the Royal Society Interface Volume 18, Issue 174, 2021</p>
+				<a class="button1" href="https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0624">Paper available here</a>
+				<a class="button2" href="https://github.com/jocelynshen/vascular-analysis">Source code available here</a>
 			</div>
 
-			<!-- Container (Portfolio Section) -->
-			<div>
-								<h3 class="w3-center" id="artwork">Artwork<a href="https://www.instagram.com/bnbndog/" target="_blank" style="font-size:15pt">
-                    <i class="fa fa-instagram"></i>
-                </a>
-							</h3>
-								<h4 class="w3-center">Sketchbook</h4>
-
-				<div style="padding-left: 20pt;padding-right: 20pt">
-					<div class="row">
-
-
-						<div class="column">
-							<img src="Assets/04_2021_figure.png" onclick="onClick(this)" alt="04/2021 figure drawing" class="w3-hover-opacity grid-element" >
-							<img src="Assets/03_2021_skull.png" onclick="onClick(this)" alt="03/2021 skull anatomy sketches" class="w3-hover-opacity grid-element" >
-							<img src="Assets/02_2021_portrait.png" onclick="onClick(this)" alt="02/2021 portrait sketches" class="w3-hover-opacity grid-element" >
-
-						</div>
-						<div class="column">
-							<img src="Assets/04_2021_Portrait.png" onclick="onClick(this)" alt="04/2021 portrait sketches" class="w3-hover-opacity grid-element" >
-							<img src="Assets/04_2021_hand.png" onclick="onClick(this)" alt="04/2021 hand and feed sketches" class="w3-hover-opacity grid-element" >
-							<img src="Assets/03_2021_figure.png" onclick="onClick(this)" alt="03/2021 figure sketches" class="w3-hover-opacity grid-element" >
-
-
-
-						</div>
-						<div class="column">
-							<img src="Assets/03_2021_anatomy.png" onclick="onClick(this)" alt="03/2021 anatomical sketches" class="w3-hover-opacity grid-element" >
-
-
-							<img src="Assets/03_2021_portrait.png" onclick="onClick(this)" alt="03/2021 portrait sketches" class="w3-hover-opacity grid-element" >
-
-							<img src="Assets/03_2021_hand.png" onclick="onClick(this)" alt="03/2021 hand and feed sketches" class="w3-hover-opacity grid-element" >
-							<img src="Assets/02_2021_figure.png" onclick="onClick(this)" alt="02/2021 figure sketches" class="w3-hover-opacity grid-element" >
-
-						</div>
-					</div>
-				</div>
-
-				<h4 class="w3-center">Paintings</h4>
-
-				<div style="padding-left: 20pt;padding-right: 20pt">
-					<div class="row">
-						<div class="column">
-							<img src="Assets/thepool.jpg" onclick="onClick(this)" alt="The Pool" class="w3-hover-opacity grid-element" >
-
-						</div>
-
-						<div class="column">
-							<img src="Assets/DrawingForDesigners2.png" onclick="onClick(this)" alt="Xu Deqi Rendition" class="w3-hover-opacity grid-element" >
-							<img src="Assets/IMG_1043.png" onclick="onClick(this)" alt="Deer in the Headlights" class="w3-hover-opacity grid-element" >
-
-						</div>
-						<div class="column">
-							<img src="Assets/landscape%20painting.png" onclick="onClick(this)" alt="Alleyway in watercolor" class="w3-hover-opacity grid-element" >
-
-						</div>
-					</div>
-				</div>
-
-
-				<!---<div class="w3-row-padding w3-center">
-					<h5></h5>
-					<div class="w3-col m4 ">
-
-						<iframe width="100%" height="400px" class="video" src="https://www.youtube.com/embed/OnAZk_ktsJs">
-						</iframe>
-					</div>
-
-					<div class="w3-col m4 ">
-
-						<iframe width="100%" height="400px" class="video" src="https://www.youtube.com/embed/ckz8YJd1LHs">
-						</iframe>
-					</div>
-
-					<div class="w3-col m4 ">
-
-						<iframe width="100%" height="400px" class="video" src="https://www.youtube.com/embed/h9ilhKdPPrg">
-						</iframe>
-					</div>
-				</div>
-			</div>-->
-
-				<!-- Modal for full size images on click-->
-				<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-					<span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-					<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-						<img id="img01" class="w3-image">
-						<p id="caption" class="w3-opacity w3-large"></p>
-					</div>
-				</div>
-
 			</div>
+		</div>
+
+
+	</div>
+
+
 
 			<!-- Footer -->
 			<footer class="w3-padding-64 " style="margin-top:5em;">
