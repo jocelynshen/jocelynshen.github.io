@@ -36,22 +36,7 @@ h3 {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-}
 
 h4 {
 	font-family: "Lato", sans-serif;
@@ -244,6 +229,12 @@ padding-right:2em;
 	color:darkslategray;
 }
 
+.title2{
+    /*font-family: 'ZCOOL QingKe HuangYou', cursive;*/
+		font-size:22px;
+	color:darkslategray;
+}
+
 .navbar-item {
 	text-decoration: none;
 	transition: 0.2s;
@@ -339,7 +330,7 @@ padding-right:2em;
 */
 /* First image (Logo. Full height) */
 
-.bgimg-1 {
+.container {
 	/* background-image: url('Assets/nanjing_.jpg'); */
 	display:flex;
 	align-items: flex-start;
@@ -384,23 +375,44 @@ padding-right:2em;
 	cursor: pointer;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+	.container {
+     display: inline-block;
+     position: relative;
+   }
+
+	 .item{
+		 width:500px;
+	 }
+
+	 .item2{
+		 width:500px;
+		 padding:1em;
+	 }
 
 
-/* Turn off parallax scrolling for tablets and phones */
-
-@media screen and (max-width: 1024px) {
-
-	h3 {
+	/*h3 {
 		font-size: 20px;
 	}
 	h5,h6,p,a {
 		font-size: 14px;
-	}
-	.bgimg-1,
-	.bgimg-2,
-	.bgimg-3 {
-		background-attachment: scroll;
-	}
+	}*/
+
 	.text2 {
 		width: 90vw;
 		font-size:14px;
