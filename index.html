@@ -4,6 +4,7 @@
 <head>
 	<title>Jocelyn Shen</title>
 	<meta charset="UTF-8">
+	<script src="main.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Hi! My name is Jocelyn, and I'm currently a junior at MIT pursuing a major in Computer Science alongisde a minor in Economics.">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -12,6 +13,10 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="main.css">
 	<link rel="icon" type="image/ico" href="/Assets/favicon.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128263308-1"></script>
 	<script>
@@ -24,22 +29,23 @@
 
 		gtag('config', 'UA-128263308-1');
 	</script>
-	<script src="main.js"></script>
 </head>
 
 <body>
 	<div class="w3-top">
 		<div class="w3-bar" id="myNavbar">
-			<a class="w3-bar-item w3-hide-medium w3-hide-large w3-left menu-button" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<a class="w3-bar-item  w3-hide-large w3-hide-medium w3-left menu-button" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
 			<a href="#home" class="w3-bar-item navbar-item">Home</a>
+			<a href="#research" class="w3-bar-item navbar-item">Research</a>
 			<a href="./projects.html" class="w3-bar-item navbar-item">Projects</a>
 			<a href="./personal.html" class="w3-bar-item navbar-item">Art and Writing</a>
 		</div>
 
 		<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
 			<a href="#home" class="w3-bar-item menu-button" onclick="toggleFunction()">Home</a>
+			<a href="#research" class="w3-bar-item menu-button" onclick="toggleFunction()">Research</a>
 			<a href="./projects.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Projects</a>
 			<a href="./personal.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Art and Writing</a>
 		</div>
@@ -47,88 +53,54 @@
 
 	<div class="bgimg-1" id="home">
 		<div class="item ">
-			<div class="span-text ">
-				<span class="w3-center w3-xlarge w3-wide w3-animate-opacity" id="span-text-inner">JOCELYN SHEN</span>
+			<div class="w3-xlarge w3-section w3-center">
+				<span class="title">JOCELYN SHEN</span>
 			</div>
-			<img src="Assets/prof.jpg" class="w3-image" style="border-radius:5px">
+			<img src="Assets/prof2.jpg" class="w3-image" style="border-radius:50%">
+			<div class="w3-xlarge w3-section w3-center">
+				<div class="span-text">
+				<a href="https://www.facebook.com/jocelyn.shen.3" class="icon">
+											<i class="fa fa-facebook-official w3-hover-opacity"></i>
+									</a>
+				<a href="https://twitter.com/jocelyn_j_shen" class="icon">
+					<i class="fa fa-twitter w3-hover-opacity"></i>
+				</a>
+				<a href="https://www.instagram.com/jocie_shen/" class="icon">
+											<i class="fa fa-instagram w3-hover-opacity"></i>
+									</a>
+				<a href="https://www.linkedin.com/in/jocelyn-shen/" class="icon">
+											<i class="fa fa-linkedin w3-hover-opacity"></i>
+									</a>
+				<a href="https://www.github.com/jocelynshen/" class="icon">
+											<i class="fa fa-github w3-hover-opacity"></i>
+									</a>
+				<a href="https://medium.com/@jocelyn.j.shen" class="icon">
+											<i class="fa fa-medium w3-hover-opacity"></i>
+									</a>
+				<a href="https://www.goodreads.com/user/show/70615594-jocelyn" class="icon">
+					<i class="fa fa-book w3-hover-opacity"></i>
+				</a>
+			</div>
+			</div>
 
-				<div class="span-text w3-opacity-min">
-					<span>
-	                <a href="https://www.facebook.com/jocelyn.shen.3" class="icon">
-	                    <i class="fa fa-facebook"></i>
-	                </a>
-	                <a href="https://www.instagram.com/jocie_shen/" target="_blank" class="icon">
-	                    <i class="fa fa-instagram"></i>
-	                </a>
-					<a href="https://twitter.com/jocelyn_j_shen" target="_blank" class="icon">
-						<i class="fa fa-twitter"></i>
-					</a>
-	                <a href="https://www.linkedin.com/in/jocelyn-shen/" target="_blank" class="icon">
-	                    <i class="fa fa-linkedin"></i>
-	                </a>
-	                <a href="https://github.com/jocelynshen" target="_blank" class="icon">
-	                    <i class="fa fa-github"></i>
-	                </a>
-	                <a href="https://jocelyn-j-shen.medium.com/" target="_blank" class="icon">
-	                    <i class="fa fa-medium"></i>
-	                </a>
-					<a href="https://www.goodreads.com/user/show/70615594-jocelyn" target="_blank" class="icon">
-						<i class="fa fa-book"></i>
-					</a>
-
-	            	</span>
-				</div>
 		</div>
 		<div class="item2">
-			<div class="content">
 			<p>Hi! I'm Jocelyn, a junior at MIT pursuing a major in Computer Science alongisde a minor in Economics. I'm passionate about technology, behavioral science, and AI policy and ethics. The driving motivation behind my research and my projects is to understand the relationship between machines, individuals, and society. In the past, I've worked at Citadel (Software Engineering Intern), Facebook (Software Engineering Intern), and Affectiva (Data Science Intern). I'm also a researcher at the MIT Media Lab's Personal Robotics group, where I've worked on affective-computing and educational technology projects for the past three years. I hope to use my knowledge in CS and machine learning to better understand human behavior and contribute to causes related to mental disability, education, and assistive technology, as well as drive research behind policy decisions regarding artificial intelligence and equitable technology. Aside from my work, I'm a writer and digital artist based in Los Angeles.</p>
 
 			<h3 class="w3-center" id="research">Research</h3>
-
-			<h4 class="w3-center"><b>Towards Transferrable Player Models in Educational Games </b></h4>
 			<div class="text">
+				<a class="text-highlight" href="http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1245.pdf">Towards Transferrable Player Models in Educational Games</em></a>
 				<p>Samuel Spaulding, <b>Jocelyn Shen</b>, HaeWon Park, and Cynthia Breazeal. Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2021)</p>
-				<a class="button1" href="http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1245.pdf">Paper available here</a>
-			</div>
-			<!-- Second Parallax Image with Portfolio Text -->
-			<h4 class="w3-center"><b>Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling</b></h4>
-			<div class="text">
 
+				<a class="text-highlight" href="https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0624">Branching principles of animal and plant networks identified by combining extensive data, machine learning and modelling</em></a>
 				<p>Alexander B. Brummer, Panagiotis Lymperopoulos, <b>Jocelyn Shen</b>, Elif Tekin, Lisa P. Bentley, Vanessa Buzzard, Andrew Gray, Imma Oliveras, Brian J. Enquist and Van M. Savage. Journal of the Royal Society Interface Volume 18, Issue 174, 2021</p>
-				<a class="button1" href="https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0624">Paper available here</a>
-				<a class="button2" href="https://github.com/jocelynshen/vascular-analysis">Source code available here</a>
+
 			</div>
 
 			</div>
-		</div>
-
 
 	</div>
 
-
-
-			<!-- Footer -->
-			<footer class="w3-padding-64 " style="margin-top:5em;">
-				<div class="w3-xlarge w3-section w3-center">
-					<a>Jocelyn Jiayue Shen<br>沈佳玥<br></a>
-					<a href="https://www.facebook.com/jocelyn.shen.3" class="footer-button">
-                        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                    </a>
-					<a href="https://www.instagram.com/jocie_shen/" class="footer-button">
-                        <i class="fa fa-instagram w3-hover-opacity"></i>
-                    </a>
-					<a href="https://www.linkedin.com/in/jocelyn-shen/" class="footer-button">
-                        <i class="fa fa-linkedin w3-hover-opacity"></i>
-                    </a>
-					<a href="https://www.github.com/jocelynshen/" class="footer-button">
-                        <i class="fa fa-github w3-hover-opacity"></i>
-                    </a>
-					<a href="https://medium.com/@jocelyn.j.shen" class="footer-button">
-                        <i class="fa fa-medium w3-hover-opacity"></i>
-                    </a>
-
-				</div>
-			</footer>
 		</div>
 </body>
 
