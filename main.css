@@ -164,24 +164,17 @@ p {
 	transition-duration: 0.2s;
 }
 
-.project-text {
-
-}
-
-.project-text-inner {
-
-}
 
 .column1 {
   float: left;
   text-align: right;
-padding-right:2em;
+padding:2em;
   width: 50%;
 }
 
 .column2 {
   float: left;
-	padding-left:2em;
+	padding:2em;
   width: 45%;
 }
 
@@ -287,7 +280,7 @@ padding-right:2em;
 .icon {
 	color:darkslategray;
 	transition: .2s;
-	margin: 15px;
+	margin: 1pt;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -392,16 +385,16 @@ padding-right:2em;
   }
 
 	.container {
-     display: inline-block;
+     display: block;
      position: relative;
    }
 
 	 .item{
-		 width:500px;
+		 width:100%;
 	 }
 
 	 .item2{
-		 width:500px;
+		 width:100%;
 		 padding:1em;
 	 }
 
@@ -457,13 +450,13 @@ padding-right:2em;
 	.column1 {
 		width: 100%;
 		text-align: center;
-		padding: 0;
+		padding: 2em;
 	  }
 
 
 	.column2 {
 		width:100%;
-		padding: 0;
+		padding: 2em;
 
 	}
 	.column3 {
