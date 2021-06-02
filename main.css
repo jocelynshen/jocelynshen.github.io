@@ -88,10 +88,9 @@ p {
 }
 
 .button2 {
-	background-color: #5c97bf;
-	border: 2px solid #5c97bf;
-	margin-right: 1em;
-
+	background-color: darkslategray;
+	border: 2px solid darkslategray;
+	border-radius: 5px;
 	color: white;
 	padding: 7px 20px;
 	text-align: center;
@@ -111,12 +110,12 @@ p {
 	color: #3f6c8a
 }
 
-.button2:hover {
+/* .button2:hover {
 	border: 2px solid #3f6c8a;
 	background-color: #3f6c8a;
 	/* Green */
 	color: white;
-}
+} */
 
 .text {
 	margin: 0 auto;
