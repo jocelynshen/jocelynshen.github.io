@@ -1,10 +1,10 @@
 h3 {
-	font-family: "Lato", sans-serif;
-	font-weight: 200;
-	font-size: 24px;
-	color: #5c97bf;
-	margin-top: 5em;
-	margin-bottom: 1em;
+	font-family: "Raleway", sans-serif;
+	/* font-weight: 200; */
+	font-size: 30px;
+	color: black;
+	margin-top: 1em; 
+	/* margin-bottom: 1em;  */
 }
 
 .item{
@@ -36,30 +36,41 @@ h3 {
   width: 100%;
 }
 
-
-
 h4 {
-	font-family: "Lato", sans-serif;
-	font-size: 18px;
-	margin-top:2em;
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+	margin-top:1.5em;
 }
+
+h2{
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+}
+
 h5,
 h6 {
-	font-family: "Lato", sans-serif;
+	font-family: "Raleway", sans-serif;
+	color: #6B7F8A
+}
+
+.pinpoint{
+	/* color: #6B7F8A */
+	text-decoration: underline;
 }
 
 body,
 html {
 	height: 100%;
-	color: #777;
+	color: black;
 	line-height: 1.8;
+	font-family: "Raleway", sans-serif;
 }
 
 a,
 p {
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-decoration: none
 }
 
@@ -70,8 +81,8 @@ p {
 
 .button1 {
 	background-color: white;
-	border: 2px solid #75b0d9;
-	color: #75b0d9;
+	/* border: 2px solid slategray; */
+	/* color: slategray; */
 	padding: 7px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -82,14 +93,14 @@ p {
 }
 
 .button1:hover {
-	background-color: #98cff5;
+	/* background-color: slategray; */
 	/* Green */
 	color: white;
 }
 
 .button2 {
-	background-color: darkslategray;
-	border: 2px solid darkslategray;
+	/* background-color: black;
+	border: 2px solid black; */
 	border-radius: 5px;
 	color: white;
 	padding: 7px 20px;
@@ -101,59 +112,58 @@ p {
 }
 
 .text-highlight {
-	font-weight: 600;
-	transition-duration: 0.4s;
-	color: #5c97bf
+	font-weight: 700;
+	/* transition-duration: 0.4s; */
+	/* color: black */
 }
 
-.text-highlight:hover {
-	color: #3f6c8a
-}
+/* .text-highlight:hover {
+	color: #588bad
+} */
 
 /* .button2:hover {
 	border: 2px solid #3f6c8a;
 	background-color: #3f6c8a;
-	/* Green */
 	color: white;
 } */
 
 .text {
 	margin: 0 auto;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 }
 
 .text2 {
 	width: 50vw;
 	margin: 0 auto;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 }
 
 .text-colored {
 	font-size: 14px;
 	transition-duration: 0.4s;
-	color: #5c97bf
+	/* color: black */
 }
 
-.text-colored:hover {
-	color: #3f6c8a
-}
+/* .text-colored:hover {
+	color: #588bad
+} */
 .text-highlight-no-hover {
 	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
-	color: #5c97bf
+	font-family: 'Raleway', sans-serif;
+	/* color: black */
 }
 
 .hover-text {
 	text-decoration: none;
 	transition: 0.2s;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-.hover-text: hover {
-	color: #5c97bf;
+.hover-text:hover {
+	color: #588bad;
 }
 
 .project-image {
@@ -208,7 +218,7 @@ padding-right:2em;
 .span-text {
 	white-space: nowrap;
 	text-align: center;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 
 #span-text-inner {
@@ -216,35 +226,35 @@ padding-right:2em;
 }
 
 .title{
-  font-family: 'Montserrat', sans-serif;
-	font-size:24px;
-	color:darkslategray;
+  font-family: 'Raleway', sans-serif;
+	font-size:32px;
+	/* color:black; */
 }
 
 .title2{
     /*font-family: 'ZCOOL QingKe HuangYou', cursive;*/
 		font-size:22px;
-	color:darkslategray;
+	/* color:black; */
 }
 
 .navbar-item {
 	text-decoration: none;
 	transition: 0.2s;
-	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
-	color: darkslategray;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	/* color: black; */
 }
 
 .menu-button {
 	text-decoration: none;
 	transition: 0.2s;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
-	color: darkslategray;
+	font-family: 'Raleway', sans-serif;
+	/* color: black; */
 }
 
 .menu-button:hover {
-	color: #5c97bf
+	/* color: black */
 }
 
 .footer-button {
@@ -252,12 +262,12 @@ padding-right:2em;
 	transition: 0.2s;
 	font-size: 24px;
 	margin: 10px;
-	font-family: 'Open Sans', sans-serif;
-	color: darkslategray;
+	font-family: 'Raleway', sans-serif;
+	/* color: black; */
 }
 
 .footer-button:hover {
-	color: #5c97bf
+	/* color: black */
 }
 
 .contact-button {
@@ -265,19 +275,19 @@ padding-right:2em;
 	transition: 0.2s;
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
-	color: darkslategray;
+	/* color: black; */
 }
 
 .contact-button:hover {
-	color: #5c97bf
+	/* color: black */
 }
 
 .navbar-item:hover {
-	color: #5c97bf
+	/* color: black */
 }
 
 .icon {
-	color:darkslategray;
+	/* color:black; */
 	transition: .2s;
 	margin: 1pt;
 	text-decoration: none;
@@ -285,7 +295,7 @@ padding-right:2em;
 }
 
 .icon:hover {
-	color: darkslategray;
+	/* color: black; */
 }
 
 
