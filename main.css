@@ -403,7 +403,7 @@ padding-right:2em;
    }
 
    .item{
-	width:500px;
+	width:100%;
 	padding: 5em;
 	position: relative !important;
 }
