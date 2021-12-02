@@ -402,9 +402,11 @@ padding-right:2em;
      position: relative;
    }
 
-	 .item{
-		 width:100%;
-	 }
+   .item{
+	width:500px;
+	padding: 5em;
+	position: relative !important;
+}
 
 	 .item2{
 		 width:100%;
