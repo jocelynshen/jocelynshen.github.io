@@ -13,7 +13,7 @@ h3 {
 
 .item {
 	width: 500px;
-	padding: 5em;
+	padding: 3em 5em;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
@@ -22,7 +22,7 @@ h3 {
 
 .item2 {
 	width: 1000px;
-	padding: 5em;
+	padding: 3em 5em;
 }
 
 .row {
