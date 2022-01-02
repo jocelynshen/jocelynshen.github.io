@@ -3,8 +3,8 @@ h3 {
 	/* font-weight: 200; */
 	font-size: 30px;
 	color: black;
-	margin-top: 1.5em;
-	/* margin-bottom: 1em;  */
+	margin-top: 16px;
+	margin-bottom: 16px; 
 }
 
 .project-text {
@@ -101,22 +101,23 @@ p {
 }
 
 .button1 {
-	background-color: white;
-	/* border: 2px solid slategray; */
-	/* color: slategray; */
-	padding: 7px 20px;
+	background-color: black; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
-	transition-duration: 0.4s;
 	display: inline-block;
-	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+	border-radius: 8px;
 
-}
+  }
 
 .button1:hover {
 	/* background-color: slategray; */
 	/* Green */
-	color: white;
+	background-color: gray;
 }
 
 .button2 {
@@ -395,6 +396,12 @@ p {
 	}
 }
 
+@media screen and (min-width: 600px) {
+	#footer {
+		display: none;
+	}
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 	.column {
@@ -430,6 +437,14 @@ p {
 
 	.navbar-item {
 		display: none !important;
+	}
+
+	#header-box {
+		display: none !important;
+	}
+
+	#footer{
+		display:block;
 	}
 
 	.content {
