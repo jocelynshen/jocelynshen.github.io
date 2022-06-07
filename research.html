@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jocelyn Shen</title>
+	<meta charset="UTF-8">
+	<script src="main.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hi! I'm Jocelyn, a graduate student at the MIT Media Lab's Personal Robots Group">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap" rel="stylesheet">
+	<meta name="author" content="Jocelyn Shen">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" type="image/ico" href="/Assets/favicon.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128263308-1"></script>
+	<link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-128263308-1');
+	</script>
+</head>
+
+<body>
+	<div class="w3-top">
+		<div class="w3-bar" id="myNavbar">
+			<a class="w3-bar-item  w3-hide-large w3-hide-medium w3-left menu-button" href="javascript:void(0);"
+				onclick="toggleFunction()" title="Toggle Navigation Menu">
+				<i class="fa fa-bars"></i>
+			</a>
+			<a href="index.html" class="w3-bar-item navbar-item w3-hover-opacity">HOME</a>
+			<a href="research.html" class="w3-bar-item navbar-item w3-hover-opacity">RESEARCH</a>
+			<a href="projects.html" class="w3-bar-item navbar-item w3-hover-opacity">PROJECTS</a>
+			<a href="writing.html" class="w3-bar-item navbar-item w3-hover-opacity">WRITING</a>
+			<a href="art.html" class="w3-bar-item navbar-item w3-hover-opacity">ART</a>
+			<a href="https://drive.google.com/file/d/1U5nhRCvfXakVSR_GT40iBE1HJM8zt4_k/view?usp=sharing" target="_blank" class="w3-bar-item navbar-item w3-hover-opacity">CV</a>
+		</div>
+
+		<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-card">
+			<a href="index.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Home</a>
+			<a href="research.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Research</a>
+			<a href="projects.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Projects</a>
+			<a href="writing.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Writing</a>
+			<a href="art.html" class="w3-bar-item menu-button" onclick="toggleFunction()">Art</a>
+			<a href="https://drive.google.com/file/d/1U5nhRCvfXakVSR_GT40iBE1HJM8zt4_k/view?usp=sharing" target="_blank" class="w3-bar-item menu-button" onclick="toggleFunction()">CV</a>
+		</div>
+	</div>
+
+	<div class="container" id="home">
+		<div class="item" id="header-box">
+			<div class="w3-xlarge w3-section w3-center">
+				<span class="title">Jocelyn Shen<br></span>
+				<!-- <span class="title2">沈佳玥</span> -->
+			</div>
+			<img src="Assets/prof.jpg" class="w3-image" style="border-radius:50%">
+			<div class="w3-xlarge w3-section w3-center">
+				<div class="span-text">
+					<a href="mailto:joceshen@mit.edu" class="icon">
+						<i class="fa fa-envelope w3-hover-opacity"></i>
+					</a>
+					<a href="https://twitter.com/jocelynjshen" class="icon">
+						<i class="fa fa-twitter w3-hover-opacity"></i>
+					</a>
+					<a href="https://jocelyn-j-shen.medium.com/" class="icon">
+						<i class="fa fa-medium w3-hover-opacity"></i>
+					</a>
+					<!-- <a href="https://www.goodreads.com/user/show/70615594-jocelyn" class="icon">
+						<i class="fa fa-book w3-hover-opacity"></i>
+					</a> -->
+					<a href="https://www.github.com/jocelynshen/" class="icon">
+						<i class="fa fa-github w3-hover-opacity"></i>
+					</a>
+					<a href="https://www.linkedin.com/in/jocelyn-shen/" class="icon">
+						<i class="fa fa-linkedin w3-hover-opacity"></i>
+					</a>
+					<a href="https://scholar.google.com/citations?user=03QyipEAAAAJ&hl=en" class="icon">
+						<i class="ai ai-google-scholar w3-hover-opacity"></i>
+					</a>	
+				</div>
+			</div>
+		</div>
+		<div class="item2">
+			<h3 class="w3-center" id="research">Research</h3>
+			<div class="text">
+				<a class="w3-hover-opacity text-highlight" href="https://doi.org/10.3389/frobt.2021.683066">Lifelong
+					Personalization via Gaussian Process Modeling for Long-Term HRI</em></a>
+				<p>Samuel Spaulding, <a class="pinpoint">Jocelyn Shen</a>, HaeWon Park, and Cynthia Breazeal. Frontiers
+					in Robotics and AI, 2021</p>
+
+				<a class="w3-hover-opacity text-highlight"
+					href="http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1245.pdf">Towards Transferrable Player
+					Models in Educational Games</em></a>
+				<p>Samuel Spaulding, <a class="pinpoint">Jocelyn Shen</a>, HaeWon Park, and Cynthia Breazeal.
+					Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems
+					(AAMAS), 2021</p>
+
+				<a class="w3-hover-opacity text-highlight"
+					href="https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0624">Branching principles of animal
+					and plant networks identified by combining extensive data, machine learning and modelling</em></a>
+				<p>Alexander B. Brummer, Panagiotis Lymperopoulos, <a class="pinpoint">Jocelyn Shen</a>, Elif Tekin,
+					Lisa P. Bentley, Vanessa Buzzard, Andrew Gray, Imma Oliveras, Brian J. Enquist and Van M. Savage.
+					Journal of the Royal Society Interface Volume 18, Issue 174, 2021</p>
+
+			</div>
+		</div>
+		<!-- </div> -->
+	</div>
+
+	</div>
+	<footer class="w3-padding-64" id="footer">
+		<div class="w3-xlarge w3-section w3-center">
+			<a>Contact me at <a class="w3-hover-opacity" href="mailto:joceshen@mit.edu">joceshen@mit.edu</a></a>
+			<div class="w3-center">
+				<a href="mailto:joceshen@mit.edu" class="icon">
+					<i class="fa fa-envelope w3-hover-opacity"></i>
+				</a>
+				<a href="https://twitter.com/jocelynjshen" class="icon">
+					<i class="fa fa-twitter w3-hover-opacity"></i>
+				</a>
+				<a href="https://jocelyn-j-shen.medium.com/" class="icon">
+					<i class="fa fa-medium w3-hover-opacity"></i>
+				</a>
+				<!-- <a href="https://www.goodreads.com/user/show/70615594-jocelyn" class="icon">
+					<i class="fa fa-book w3-hover-opacity"></i>
+				</a> -->
+				<a href="https://www.github.com/jocelynshen/" class="icon">
+					<i class="fa fa-github w3-hover-opacity"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/jocelyn-shen/" class="icon">
+					<i class="fa fa-linkedin w3-hover-opacity"></i>
+				</a>
+				<a href="https://scholar.google.com/citations?user=03QyipEAAAAJ&hl=en" class="icon">
+					<i class="ai ai-google-scholar w3-hover-opacity"></i>
+				</a>
+			</div>
+			<a class="button1 w3-center" href="#writing">BACK TO TOP</a>
+	</footer>
+	</div>
+</body>
+
+</html>
