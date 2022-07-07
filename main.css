@@ -394,6 +394,7 @@ p {
 
 .w3-hover-opacity {
 	cursor: pointer;
+	transition: 0.4s;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
