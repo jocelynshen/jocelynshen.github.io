@@ -38,6 +38,12 @@ h3 {
 	padding: 0 4px;
 }
 
+.column-2{
+	flex: 50%;
+	max-width: 50%;
+	padding: 0 4px;
+}
+
 .column-project{
 	flex: 33%;
 	max-width: 33%;
@@ -46,6 +52,12 @@ h3 {
 }
 
 .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.column-2 img {
 	margin-top: 8px;
 	vertical-align: middle;
 	width: 100%;
@@ -179,7 +191,7 @@ p {
 
 .hover-text {
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.4s;
 	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
 }
@@ -192,7 +204,7 @@ p {
 	border-radius: 20px;
 	text-align: right;
 	margin: 2em;
-	transition-duration: 0.2s;
+	transition-duration: 0.4s;
 }
 
 
@@ -261,7 +273,7 @@ p {
 
 .navbar-item {
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.4s;
 	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
 	/* color: black; */
@@ -269,7 +281,7 @@ p {
 
 .menu-button {
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.4s;
 	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
 	/* color: black; */
@@ -281,7 +293,7 @@ p {
 
 .footer-button {
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.4s;
 	font-size: 24px;
 	margin: 10px;
 	font-family: 'Raleway', sans-serif;
@@ -292,9 +304,10 @@ p {
 	/* color: black */
 }
 
+
 .contact-button {
 	text-decoration: none;
-	transition: 0.2s;
+	transition: 0.4s;
 	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
 	/* color: black; */
@@ -310,10 +323,16 @@ p {
 
 .icon {
 	/* color:black; */
-	transition: .2s;
+	transition: .4s;
 	margin: 1pt;
 	text-decoration: none;
 	font-size: 20px;
+}
+
+.icon2 {
+	transition: .4s;
+	margin: 1pt;
+	text-decoration: none;
 }
 
 .icon:hover {
@@ -323,7 +342,7 @@ p {
 
 .grid-element {
 	width: 100%;
-	transition-duration: 0.2s;
+	transition-duration: 0.4s;
 }
 
 .about {
