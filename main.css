@@ -330,6 +330,7 @@ p {
 }
 
 .icon2 {
+	display: inline-block;
 	transition: .4s;
 	margin: 1pt;
 	text-decoration: none;
