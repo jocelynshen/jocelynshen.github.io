@@ -430,6 +430,11 @@ p {
 		max-width: 100%;
 	}
 
+	.column-2{
+		flex: 100%;
+		max-width: 100%;
+	}
+
 	.column-project {
 		flex: 100%;
 		max-width: 100%;
