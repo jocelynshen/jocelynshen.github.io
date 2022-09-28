@@ -31,6 +31,12 @@ h3 {
 	/* padding: 0 4px; */
 }
 
+.row-2 {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top:1.5em;
+}
+
 /* Create four equal columns that sits next to each other */
 .column {
 	flex: 33%;
@@ -68,6 +74,22 @@ h3 {
 	vertical-align: middle;
 	width: 100%;
 }
+
+.column-3 {
+	flex:250px;
+	/* padding: 1.5em; */
+}
+
+.column-3 img {
+	width:100%;
+	/* padding: 1.5em; */
+}
+
+.column-4 {
+	flex:66%;
+	padding-left: 1.5em;
+}
+
 
 h4 {
 	font-family: "Raleway", sans-serif;
@@ -112,6 +134,26 @@ p {
 	font-style: italic
 }
 
+.text-button {
+	display: inline-block;
+	height: 38px;
+	padding: 0 15px;
+	color: #555;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
 .button1 {
 	background-color: black; /* Green */
 	border: none;
@@ -149,6 +191,11 @@ p {
 	font-weight: 700;
 	/* transition-duration: 0.4s; */
 	/* color: black */
+}
+
+.highlight {
+	color:#4287f5;
+	/* font-weight: bold; */
 }
 
 /* .text-highlight:hover {
@@ -431,6 +478,16 @@ p {
 	}
 
 	.column-2{
+		flex: 100%;
+		max-width: 100%;
+	}
+
+	.column-3{
+		flex: 100%;
+		max-width: 100%;
+	}
+
+	.column-4{
 		flex: 100%;
 		max-width: 100%;
 	}
