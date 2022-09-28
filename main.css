@@ -1,28 +1,56 @@
+
+body,
+html {
+	height: 100%;
+	color: black;
+	line-height: 1.8;
+	font-family: "Raleway", sans-serif;
+}
+
+
+
+
+.title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	/* color:black; */
+}
+
+h4 {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	/* margin-top: 1.5em; */
+}
+
+h2 {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+}
+
+h5,
+h6 {
+	font-family: "Raleway", sans-serif;
+	color: #6B7F8A
+}
+a,
+p {
+	font-size: 15px;
+	margin-top: 0;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none
+}
 h3 {
 	font-family: "Raleway", sans-serif;
 	/* font-weight: 200; */
-	font-size: 30px;
+	font-size: 1.5em;
 	color: black;
 	margin-top: 16px;
 	margin-bottom: 16px; 
 }
 
-.project-text {
-	font-size: 14px;
-}
-
-.item {
-	width: 500px;
-	padding: 3em 5em;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	/* z-index:1 ; */
-}
-
-.item2 {
-	width: 1000px;
-	padding: 3em 5em;
+.item3{
+	width:100%;
+	padding:2em 2em;
 }
 
 .row {
@@ -34,8 +62,9 @@ h3 {
 .row-2 {
 	display: flex;
 	flex-wrap: wrap;
-	padding-top:1.5em;
+	/* padding-top:1.5em; */
 }
+
 
 /* Create four equal columns that sits next to each other */
 .column {
@@ -50,15 +79,10 @@ h3 {
 	padding: 0 4px;
 }
 
-.column-project{
-	flex: 33%;
-	max-width: 33%;
-	padding: 0 4px;
-	/* height:500px; */
-}
 
 .column img {
-	margin-top: 8px;
+	/* margin-top: 8px; */
+	padding: .5em;
 	vertical-align: middle;
 	width: 100%;
 }
@@ -69,11 +93,6 @@ h3 {
 	width: 100%;
 }
 
-.column-project img {
-	margin-top: 8px;
-	vertical-align: middle;
-	width: 100%;
-}
 
 .column-3 {
 	flex:250px;
@@ -91,48 +110,13 @@ h3 {
 }
 
 
-h4 {
-	font-family: "Raleway", sans-serif;
-	font-size: 22px;
-	margin-top: 1.5em;
-}
 
-h2 {
-	font-family: "Raleway", sans-serif;
-	font-size: 18px;
-}
-
-h5,
-h6 {
-	font-family: "Raleway", sans-serif;
-	color: #6B7F8A
-}
 
 .pinpoint {
 	/* color: #6B7F8A */
 	text-decoration: underline;
 }
 
-body,
-html {
-	height: 100%;
-	color: black;
-	line-height: 1.8;
-	font-family: "Raleway", sans-serif;
-}
-
-a,
-p {
-	font-size: 18px;
-	margin-top: 0;
-	font-family: 'Raleway', sans-serif;
-	text-decoration: none
-}
-
-.note {
-	font-size: 16px;
-	font-style: italic
-}
 
 .text-button {
 	display: inline-block;
@@ -174,18 +158,6 @@ p {
 	background-color: gray;
 }
 
-.button2 {
-	/* background-color: black;
-	border: 2px solid black; */
-	border-radius: 5px;
-	color: white;
-	padding: 7px 20px;
-	text-align: center;
-	text-decoration: none;
-	transition-duration: 0.4s;
-	display: inline-block;
-	font-size: 16px;
-}
 
 .text-highlight {
 	font-weight: 700;
@@ -198,87 +170,16 @@ p {
 	/* font-weight: bold; */
 }
 
-/* .text-highlight:hover {
-	color: #588bad
-} */
-
-/* .button2:hover {
-	border: 2px solid #3f6c8a;
-	background-color: #3f6c8a;
-	color: white;
-} */
-
 .text {
 	margin: 0 auto;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 }
 
-.text2 {
-	width: 50vw;
-	margin: 0 auto;
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-}
-
-.text-colored {
-	font-size: 14px;
-	transition-duration: 0.4s;
-	/* color: black */
-}
-
-/* .text-colored:hover {
-	color: #588bad
-} */
 .text-highlight-no-hover {
 	font-weight: 600;
 	font-family: 'Raleway', sans-serif;
 	/* color: black */
-}
-
-.hover-text {
-	text-decoration: none;
-	transition: 0.4s;
-	font-size: 18px;
-	font-family: 'Raleway', sans-serif;
-}
-
-.hover-text:hover {
-	color: #588bad;
-}
-
-.project-image {
-	border-radius: 20px;
-	text-align: right;
-	margin: 2em;
-	transition-duration: 0.4s;
-}
-
-
-.column1 {
-	float: left;
-	text-align: right;
-	/* padding: 1em; */
-	width: 50%;
-}
-
-.column2 {
-	float: left;
-	padding: 1em;
-	width: 45%;
-}
-
-.column3 {
-	float: left;
-	text-align: right;
-	padding-right: 2em;
-	width: 30%;
-}
-
-.column4 {
-	float: left;
-	padding-left: 2em;
-	width: 70%;
 }
 
 
@@ -296,6 +197,12 @@ p {
 	transform: translateY(-50%);
 }
 
+/* #myNavbar {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 .span-text {
 	white-space: nowrap;
 	text-align: center;
@@ -306,28 +213,20 @@ p {
 	font-size: 10px !important;
 }
 
-.title {
-	font-family: 'Raleway', sans-serif;
-	font-size: 32px;
-	/* color:black; */
-}
-
-.title2 {
-	/*font-family: 'ZCOOL QingKe HuangYou', cursive;*/
-	font-size: 22px;
-	/* color:black; */
-}
 
 .navbar-item {
 	text-decoration: none;
 	transition: 0.4s;
 	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
+	float:right !important;
 	/* color: black; */
 }
 
 .menu-button {
 	text-decoration: none;
+	text-align: center;
+	float:right !important;
 	transition: 0.4s;
 	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
@@ -403,8 +302,15 @@ p {
 	/* background-image: url('Assets/nanjing_.jpg'); */
 	display: flex;
 	align-items: flex-start;
+	flex-direction: column;
 	padding-top: 5em;
 	min-height: 100%;
+	width:100%;
+	max-width:900px;
+	margin:auto;
+	/* width:960px; */
+	/* margin:auto; */
+	
 }
 
 /* Second image (Portfolio) */
@@ -445,7 +351,6 @@ p {
 	transition: 0.4s;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1000px) {
 	.column {
 		flex: 50%;
@@ -462,6 +367,8 @@ p {
 		flex: 100%;
 		max-width: 100%;
 	}
+
+	
 }
 
 @media screen and (min-width: 600px) {
@@ -472,6 +379,9 @@ p {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+	/* .container {
+		width: 100%;
+	} */
 	.column {
 		flex: 100%;
 		max-width: 100%;
@@ -481,17 +391,17 @@ p {
 		flex: 100%;
 		max-width: 100%;
 	}
-
+/* 
 	.column-3{
 		flex: 100%;
 		max-width: 100%;
-	}
+	} */
 
-	.column-4{
+	/* .column-4{
 		flex: 100%;
 		max-width: 100%;
 		padding:0;
-	}
+	} */
 
 	.column-project {
 		flex: 100%;
@@ -505,13 +415,16 @@ p {
 
 	.item {
 		width: 100%;
+		max-width:100%;
 		padding: 5em;
 		position: relative !important;
 	}
 
 	.item2 {
 		width: 100%;
+		max-width:100%;
 		padding: 1em;
+
 	}
 
 	.text2 {
@@ -560,34 +473,5 @@ p {
 		font-size: 24px !important;
 	}
 
-	.project-text {
-		margin: 0 !important;
-		padding: 0 !important;
-	}
-
-	.column1 {
-		width: 100%;
-		text-align: center;
-		/* padding: 2em; */
-	}
-
-
-	.column2 {
-		width: 100%;
-		/* padding: 2em; */
-	}
-
-	.column3 {
-		width: 100%;
-		text-align: center;
-		padding: 0;
-	}
-
-
-	.column4 {
-		width: 100%;
-		padding: 0;
-
-	}
 
 }
