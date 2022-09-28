@@ -3,50 +3,51 @@ body,
 html {
 	height: 100%;
 	color: black;
-	line-height: 1.8;
-	font-family: "Raleway", sans-serif;
+	/* line-height: 1.8; */
+	font-family: "Helvetica Neue", sans-serif;
 }
 
 
 
 
 .title {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 32px;
 	/* color:black; */
 }
 
+h3 {
+	font-family: "Helvetica Neue", sans-serif;
+	/* font-weight: 200; */
+	font-size: 30px;
+	color: black;
+	/* margin-top: 16px;
+	margin-bottom: 16px;  */
+}
+
 h4 {
-	font-family: "Raleway", sans-serif;
-	font-size: 16px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 22px;
 	/* margin-top: 1.5em; */
 }
 
-h2 {
-	font-family: "Raleway", sans-serif;
-	font-size: 18px;
-}
 
-h5,
-h6 {
-	font-family: "Raleway", sans-serif;
-	color: #6B7F8A
-}
-a,
 p {
-	font-size: 15px;
+	font-size: 16px;
 	margin-top: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	text-decoration: none
 }
-h3 {
-	font-family: "Raleway", sans-serif;
-	/* font-weight: 200; */
-	font-size: 1.5em;
-	color: black;
-	margin-top: 16px;
-	margin-bottom: 16px; 
+
+#link{
+	margin-top: 0;
+	font-family: 'Helvetica Neue', sans-serif;
+	text-decoration: none;
+	color: #1772d0;
+	
 }
+
+
 
 .item3{
 	width:100%;
@@ -114,7 +115,9 @@ h3 {
 
 .pinpoint {
 	/* color: #6B7F8A */
-	text-decoration: underline;
+	/* text-decoration: underline; */
+	font-weight: bold;
+	color: #1772d0;
 }
 
 
@@ -122,20 +125,22 @@ h3 {
 	display: inline-block;
 	height: 38px;
 	padding: 0 15px;
-	color: #555;
+	color: #1772d0;
 	text-align: center;
 	font-size: 11px;
 	font-weight: 600;
 	text-transform: uppercase;
-	line-height: 38px;
+	line-height: 25px;
+	height:25px;
 	letter-spacing: .1rem;
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: transparent;
-	border-radius: 4px;
-	border: 1px solid #bbb;
+	/* border-radius: 4px; */
+	border: 1px solid #1772d0;
 	cursor: pointer;
 	box-sizing: border-box;
+	margin-right: 3px;
 }
 
 .button1 {
@@ -166,22 +171,14 @@ h3 {
 }
 
 .highlight {
-	color:#4287f5;
+	color:orangered;
 	/* font-weight: bold; */
 }
 
 .text {
 	margin: 0 auto;
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
+	font-family: 'Helvetica Neue', sans-serif;
 }
-
-.text-highlight-no-hover {
-	font-weight: 600;
-	font-family: 'Raleway', sans-serif;
-	/* color: black */
-}
-
 
 /* Clear floats after the columns */
 .row:after {
@@ -206,7 +203,7 @@ h3 {
 .span-text {
 	white-space: nowrap;
 	text-align: center;
-	font-family: "Raleway", sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
 }
 
 #span-text-inner {
@@ -218,7 +215,7 @@ h3 {
 	text-decoration: none;
 	transition: 0.4s;
 	font-size: 14px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	float:right !important;
 	/* color: black; */
 }
@@ -229,7 +226,7 @@ h3 {
 	float:right !important;
 	transition: 0.4s;
 	font-size: 18px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	/* color: black; */
 }
 
@@ -242,7 +239,7 @@ h3 {
 	transition: 0.4s;
 	font-size: 24px;
 	margin: 10px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	/* color: black; */
 }
 
