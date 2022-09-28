@@ -490,6 +490,7 @@ p {
 	.column-4{
 		flex: 100%;
 		max-width: 100%;
+		padding:0;
 	}
 
 	.column-project {
