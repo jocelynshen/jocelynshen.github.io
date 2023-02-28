@@ -134,7 +134,7 @@ p {
 	color: #1772d0;
 	text-align: center;
 	font-size: 11px;
-	font-weight: 600;
+	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 25px;
 	height:25px;
@@ -207,8 +207,8 @@ p {
 
 .highlight {
 	color:#e8a200;
-	font-weight: bold;
 	/* font-weight: bold; */
+	font-weight: bold;
 }
 
 .text {
