@@ -4,20 +4,20 @@ html {
 	height: 100%;
 	color: black;
 	/* line-height: 1.8; */
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Nunito", sans-serif;
 }
 
 
 
 
 .title {
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 	font-size: 32px;
 	/* color:black; */
 }
 
 h3 {
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Nunito", sans-serif;
 	/* font-weight: 200; */
 	font-size: 30px;
 	color: black;
@@ -26,8 +26,9 @@ h3 {
 }
 
 h4 {
-	font-family: "Helvetica Neue", sans-serif;
-	font-size: 22px;
+	font-family: "Nunito", sans-serif;
+	font-size: 24px;
+	/* font-weight: bold; */
 	/* margin-top: 1.5em; */
 }
 
@@ -35,13 +36,13 @@ h4 {
 p {
 	font-size: 16px;
 	margin-top: 0;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 	text-decoration: none
 }
 
 #link{
 	margin-top: 0;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 	text-decoration: none;
 	color: #1772d0;
 	
@@ -97,11 +98,14 @@ p {
 
 .column-3 {
 	flex:250px;
-	/* padding: 1.5em; */
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 .column-3 img {
 	width:100%;
+	border-radius: 5px;
 	/* padding: 1.5em; */
 }
 
@@ -110,7 +114,9 @@ p {
 	padding-left: 1.5em;
 }
 
-
+.buttons {
+	margin-top:-10px;
+}
 
 
 .pinpoint {
@@ -139,8 +145,37 @@ p {
 	/* border-radius: 4px; */
 	border: 1px solid #1772d0;
 	cursor: pointer;
+	border-radius: 3px;
 	box-sizing: border-box;
 	margin-right: 3px;
+	margin-top: 10px;
+}
+
+
+.text-button:hover {
+	transition: all .4s ease;
+-webkit-transition: all .4s ease;
+	display: inline-block;
+	height: 38px;
+	padding: 0 15px;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 25px;
+	height:25px;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: #1772d0;
+	/* border-radius: 4px; */
+	border: 1px solid #1772d0;
+	border-radius: 3px;
+	cursor: pointer;
+	box-sizing: border-box;
+	margin-right: 3px;
+	margin-top: 10px;
 }
 
 .button1 {
@@ -171,13 +206,14 @@ p {
 }
 
 .highlight {
-	color:orangered;
+	color:#e8a200;
+	font-weight: bold;
 	/* font-weight: bold; */
 }
 
 .text {
 	margin: 0 auto;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 }
 
 /* Clear floats after the columns */
@@ -203,7 +239,7 @@ p {
 .span-text {
 	white-space: nowrap;
 	text-align: center;
-	font-family: "Helvetica Neue", sans-serif;
+	font-family: "Nunito", sans-serif, sans-serif;
 }
 
 #span-text-inner {
@@ -215,7 +251,7 @@ p {
 	text-decoration: none;
 	transition: 0.4s;
 	font-size: 14px;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 	float:right !important;
 	/* color: black; */
 }
@@ -226,7 +262,7 @@ p {
 	float:right !important;
 	transition: 0.4s;
 	font-size: 18px;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 	/* color: black; */
 }
 .menu-button2 {
@@ -234,7 +270,7 @@ p {
 	text-align: center;
 	transition: 0.4s;
 	font-size: 18px;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 	/* color: black; */
 }
 
@@ -244,7 +280,7 @@ p {
 	transition: 0.4s;
 	font-size: 24px;
 	margin: 10px;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Nunito';
 	/* color: black; */
 }
 
@@ -257,7 +293,7 @@ p {
 	text-decoration: none;
 	transition: 0.4s;
 	font-size: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nunito';
 	/* color: black; */
 }
 
