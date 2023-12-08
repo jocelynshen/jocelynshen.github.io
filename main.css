@@ -34,7 +34,7 @@ h4 {
 
 
 p {
-	font-size: 16px;
+	font-size: 15xpx;
 	margin-top: 0;
 	font-family: 'Nunito';
 	text-decoration: none
@@ -205,6 +205,7 @@ p {
 
 .text-highlight {
 	font-weight: 700;
+	font-size: 16px;
 	/* transition-duration: 0.4s; */
 	/* color: black */
 }
@@ -348,7 +349,7 @@ p {
 	padding-top: 5em;
 	min-height: 100%;
 	width:100%;
-	max-width:930px;
+	max-width:1000px;
 	margin:auto;
 	/* width:960px; */
 	/* margin:auto; */
